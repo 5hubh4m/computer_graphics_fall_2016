@@ -35,4 +35,5 @@ The repository contains the following algorithms.
 The individual `.c`/`.cpp` files can be directly compiled using `gcc`/`g++` provided `GLUT` is installed. `OpenGL` and `GLUT` is installed on macOS by default.
 
 > macOS: `$(CC) $(file) -o main -framework OpenGL -framework GLUT`
+
 > posix: `$(CC) $(file) -o main -lGL - lGLU -lGLUT -lm`  
